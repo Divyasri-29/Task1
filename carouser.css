@@ -1,0 +1,47 @@
+body{
+    width:100%;
+}
+.parent{
+    /* width: 1000px; */
+    display: flex !important;
+    /* border: 2px solid red; */
+    align-items: center;
+    position: relative;
+}
+.child{
+    /* width: 150px !important; */
+    height: 100px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+.inner_child{
+    height: 100px;
+    width: 150px;
+    background-color: red;
+}
+.inner_child img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+button{
+    width: fit-content;
+}
+li button{
+    display: none;
+}
+.slick-dots{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
+.slick-active{
+    color: red;
+}
+.mybutton{
+    border-radius: 50px;
+}

@@ -1,0 +1,26 @@
+.parent{
+    width: 100%;
+    height: 100svh;
+    border: 3px solid black;
+    background-color: chartreuse;
+    /* display: flex; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* align-items: start;      row-wise */
+    /* justify-content: center; col-wise */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;*/
+} 
+.child{
+    width: 150px;
+    height: 150px; 
+    border: 2px solid white;
+    background-color: brown;
+    font-size: 50px;
+    color: white;
+}
+#sp{
+    justify-self: end;
+    align-self: end;
+}

@@ -1,0 +1,36 @@
+/* .hai{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    font-size: 32px;
+}
+@media screen and (max-width: 650px){
+    .hai{
+        background-color: black;
+    }
+} */
+
+.navbar{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.Options_max_screen{
+    display: flex;
+    font-size: 35px;
+}
+.Options_max_screen div{
+    padding: 5px 10px;
+}
+
+select{
+    display: none;
+}
+@media screen and (max-width:800px){
+    .Options_max_screen{
+        display: none;
+    }
+    select{
+        display: block;
+    }
+}

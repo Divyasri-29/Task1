@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="./events.css"> -->
+        <script src="./events.js"> </script>
+        
+    </head>
+    <body>
+        <label >FIRST NAME</label>
+       <input type="text"  onchange="{firstname(event)}"/><br><br>
+       <label>LAST NAME</label>
+       <input type="text"  onchange="{lastname(event)}"/><br><br>
+       <label>mobilenumber</label>
+       <input type="number" onchange="{mobilenumber(event)}"/><br><br>
+       <select onchange="select(event)">
+        <option>AEC</option>
+        <option>ACET</option>
+        <option>ACOE</option>
+    </select><br><br>
+       <input type="submit" onclick="{submit(event)}"/>
+
+    </body>
+</html>

@@ -1,0 +1,18 @@
+.mydiv{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    /* background-color: red; */
+    background-image: url("./images/nature.jpeg");
+    background-repeat: no-repeat;
+    font-size: 200px;
+    font-family: bold;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    color: transparent;
+    background-clip: text;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}

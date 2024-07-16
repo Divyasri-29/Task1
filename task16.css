@@ -1,0 +1,465 @@
+.par{
+    width: 100%;
+    height:500vh;
+}
+.div1{
+    height: 20%;
+    width:100%;
+}
+.head{
+    width:100%;
+    height:7%;
+    position: relative;
+    display: flex;
+}
+.log{
+    width:50%;
+    height:100%;
+    color:grey;
+    font-size: 130%;
+    position: absolute;
+    left:7%;
+    top: 10%;
+}
+.lines{
+    width:50%;
+    height:100%;
+}
+.lines i{
+    color: blue;
+    position: absolute;
+    left:90%;
+    top: 19%;
+}
+.maindiv{
+    width:100%;
+    height:90%;
+    background-image: url("images/mob.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.matter{
+    color: white;
+    font-size: 350%;
+    position: absolute;
+    top:47%;
+    left: 8%;
+    font-family: cursive;
+    font-weight: 900;
+}
+.first{
+    width:13%;
+    height: 27%;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    top:34%;
+    left:60%;
+}
+.cir{
+    height:35%;
+    width:30%;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+.cir img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left:25%;
+}
+.des{
+    font-size:88%;
+    color: black;
+    position: absolute;
+    top:70%;
+    left:28%;
+}
+.k1{
+    font-size:88%;
+    color: black;
+    position: absolute;
+    top:70%;
+    left:15%;
+}
+.cir1{
+    height:35%;
+    width:30%;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+.cir1 img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left:25%;
+}
+.second{
+    width:13%;
+    height: 27%;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    top:34%;
+    left:75%;
+}
+.third{
+    width:13%;
+    height: 27%;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    top:65%;
+    left:60%;
+}
+.cir2{
+    height:35%;
+    width:30%;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+.cir2 img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left:25%;
+}
+.fourth{
+    width:13%;
+    height: 27%;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    top:65%;
+    left:75%;
+}
+.cir3{
+    height:35%;
+    width:30%;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+.cir3 img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left:25%;
+}
+.div2{
+    height: 20%;
+    width:100%;
+    background-color: #F2F2F2;
+    position: relative;
+}
+.one{
+    height: 10%;
+    width: 100%;
+    position: relative;
+}
+.o{
+    font-size: 270%;
+    color:black;
+    position:absolute;
+    top: 120%;
+    left: 25%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.two{
+    height: 20%;
+    width: 100%;
+    position: relative;
+}
+.t{
+    font-size: 90%;
+    color:black;
+    position:absolute;
+    top: 60%;
+    left: 28%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.box1{
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    display: flex;
+}
+.tick{
+    width: 10%;
+    height: 80%;
+    position: relative;
+}
+.tick img{
+    width: 170%;
+    height: 70%;
+    position: absolute;
+    top:10%;
+    left: 15%;
+}
+.ama{
+    position: absolute;
+    top: 12%;
+    left: 24%;
+}
+didd{
+    font-size:85%;
+}
+.box2{
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 38%;
+    left: 53%;
+    display: flex;
+}
+.box3{
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    display: flex;
+}
+.box4{
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    display: flex;
+}
+.div3{
+    height: 20%;
+    width:100%;
+    background-color: white;
+    position: relative;
+}
+.bluebox{
+    width: 53%;
+    height: 67%;
+    background-color: #1847B8;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
+.greybox{
+    width: 30%;
+    height: 69%;
+    background-color: #E2E6E9;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    background-image: url("images/professional.jpg");
+    background-size: 100% 100%;
+}
+.ma1{
+    font-size: 160%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family:cursive;
+}
+.ma2{
+    font-size: 90%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 140%;
+}
+.learn{
+    width:20%;
+    height:10%;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div4{
+    height: 20%;
+    width:100%;
+    /* background-color: grey; */
+    position: relative;
+    display: flex;
+}
+.f1{
+    width: 40%;
+    height: 90%;
+}
+.circle{
+    border-radius: 60%;
+    border: 40px solid blue;
+    height: 35%;
+    width: 39%;
+    background-color: blue;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+.f1 img{
+    height: 60%;
+    width: 16%;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.f2{
+    width: 60%;
+    height: 90%;
+    position: relative;
+}
+d1{
+    font-size: 140%;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+d2{
+    font-size: 280%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+d3{
+    font-size: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    line-height: 130%;
+}
+.oran{
+    width: 50%;
+    height: 20%;
+    /* background-color: black; */
+    position: relative;
+    top: 66%;
+    left: 5%;
+}
+details{
+    color:orange;
+    line-height: 150%;
+}
+d4{
+    color: black;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.butt{
+    width: 100%;
+    height: 30%;
+    top: 60%;
+}
+.read{
+    width:18%;
+    height:8%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: blue;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div5{
+    width: 100%;
+    height: 8%;
+    background-color: #E2E6E9;
+    position: relative;
+}
+.rec{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    display: flex;
+}
+.oone{
+    width: 20%;
+    height: 100%;
+}
+.oone img{
+    width: 8%;
+    height: 39%;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+.twoo{
+     width: 60%;
+     height: 100%;
+     font-size: 270%;
+     position: absolute;
+     top: 15%;
+     left: 20%;
+}
+g1{
+    font-size: 50%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contac{
+    width:15%;
+    height:20%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: blue;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

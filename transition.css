@@ -1,0 +1,238 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+/* .par{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s ease-in 2s;
+    transition-duration: 2s;
+
+}
+.par:hover{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+} */
+
+
+/* .par li{
+    list-style-type: none;
+}
+.par li::before{
+    content: "Hello";
+} */
+
+
+
+.div2{
+    width: 100px;
+    height: 100px;
+}
+.div2 button{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid rgb(158, 20, 116);
+    transition: all 1s;
+    overflow: hidden;
+    color: rgb(158, 20, 116);
+    font-size: large;
+    z-index: 9999;
+}
+.div2 button:hover{
+    color: white;
+}
+.div2 button::after{
+    content:"";
+    position: absolute;
+    background-color: rgb(158, 20, 116);
+    width: 150px;
+    height: 70px;
+    left: 200px;
+    top: 0;
+    transition: all 1s;
+    color: white;
+    border-radius: 50px;
+}
+.div2 button:hover::after{
+    left: 0;
+    z-index: -9999;
+}
+
+
+
+.div3{
+    width: 100px;
+    height: 100px;
+}
+.div3 button{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid rgb(158, 20, 116);
+    transition: all 1s;
+    overflow: hidden;
+    font-size: large;
+
+}
+.div3 button:hover{
+}
+.div3 button::after{
+    content:"";
+    position: absolute;
+    background-image: url("images/nature.jpeg");
+    background-size: 100% 100%;
+    width: 150px;
+    height: 70px;
+    right: 200px;
+    top: 0;
+    transition: all 1s;
+    cursor: pointer;
+}
+.div3 button:hover::after{
+    right: 0;
+    z-index: 9999;
+}
+
+
+.div4{
+    width: 100px;
+    height: 100px;
+}
+.div4 button{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    width: 140px;
+    height: 70px;
+    border: 1px solid rgb(158, 20, 116);
+    transition: all 1s;
+    overflow: hidden;
+    color: rgb(158, 20, 116);
+    font-size: large;
+    z-index: 9999;
+    transform: skewX(45deg);
+}
+.div4 button:hover{
+    color: white;
+}
+.div4 button::after{
+    content:"";
+    position: absolute;
+    background-color: rgb(158, 20, 116);
+    width: 140px;
+    height: 70px;
+    border: 1px solid rgb(158, 20, 116);
+    left: 200px;
+    top: 0;
+    transition: all 1s;
+    color: white;
+    transform: skewX(0deg);
+}
+.div4 button:hover::after{
+    left: 0;
+    z-index: -9999;
+}
+
+
+
+.div5{
+    width: 100px;
+    height: 100px;
+}
+.div5 button{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: all 1s;
+    overflow: hidden;
+    color: rgb(158, 20, 116);
+    font-size: large;
+    z-index: 9999;
+}
+.div5 button:hover{
+    color: white;
+    box-shadow: 2px 2px 8px 10px black;
+}
+.div5 button::after{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 70px;
+    left: 200px;
+    top: 0;
+    transition: all 1s;
+    color: white;
+    border-radius: 50px;
+}
+.div5 button:hover::after{
+    left: 0;
+    z-index: -9999;
+}
+
+
+
+
+.div6{
+    width: 100px;
+    height: 100px;
+}
+.div6 button{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: all 1s;
+    overflow: hidden;
+    color: rgb(158, 20, 116);
+    font-size: large;
+    z-index: 9999;
+}
+.div6 button:hover{
+    color: white;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinte;
+}
+.div6 button::after{
+    content:"";
+    position: absolute;
+    background-color: rgb(34, 194, 146);
+    width: 150px;
+    height: 70px;
+    left: 200px;
+    top: 0;
+    transition: all 1s;
+    color: white;
+    border-radius: 50px;
+}
+.div6 button:hover::after{
+    left: 0;
+    z-index: -9999;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

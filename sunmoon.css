@@ -1,0 +1,78 @@
+.par{
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+.div1{
+    height: 50%;
+    width:100%;
+    background-color: orange;
+    animation-name: col;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.div2{
+    height: 50%;
+    width:100%;
+    background-color: black;
+    animation-name: col1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.moon{
+    width: 11%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 11%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    animation-name: rotate1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#992001,#FB9D04,#F66102);
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg) translateX(200px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(200px);
+    }
+}
+@keyframes rotate1{
+    0%{
+        transform: rotate(0deg) translateX(-200px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(-200px);
+    }
+}
+@keyframes col{
+    from{
+        background-color: orange;
+    }
+    to{
+        background-color: black;
+    }
+}
+@keyframes col1{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: orange;
+    }
+}

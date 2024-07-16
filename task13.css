@@ -1,0 +1,144 @@
+.par{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.mydiv{
+    width: 32%;
+    height: 46%;
+    background-color: black;
+    position: relative;
+    top: 25%;
+    left: 33%;
+    /* left:450; */
+    border-radius: 12px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS6ZPpTYgaJE7ZZDPpy20F1hja84vozvX90Oks5dtdIuddwTHaqF4YiXbJOxqlW4UNVJg&usqp=CAU");
+    background-image: fixed;
+}
+.div1{
+    width: 100%;
+    height: 17%;
+}
+.div1 img{
+    width: 40%;
+    height: 100%;
+    padding-left: 61%;
+    padding-top: 2%;
+}
+.div2{
+    width: 100%;
+    height: 23%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.simim{
+    width: 15%;
+    height: 70%;
+    margin-left: 10%;
+    background-color: burlywood;
+    background-image: url("images/sim.jpg");
+    background-size: 100% 100%;
+    border-radius: 10%;
+}
+.word{
+    width: 30%;
+    height: 70%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 5%;
+}
+.sim{
+    width: 50%;
+    height: 70%;
+    /* background-color: blueviolet; */
+    font-size: 126%;
+    /* font-family: serif; */
+    color: white;
+}
+.save{
+    width: 50%;
+    height: 68%;
+    /* background-color:aquamarine; */
+    font-size: 125%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    /* padding-left: 2%; */
+}
+.last{
+    width: 80%;
+    height: 10%;
+    /* background-color: yellow; */
+    font-size: 8px;
+    margin-left: 68%;
+    position: absolute;
+    top: 115;
+    letter-spacing: 6px;
+    color:white;
+}
+.div3{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+    font-size: 130%;
+    padding-left: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.div4{
+    width: 100%;
+    height: 13%;
+    /* background-color: aqua; */
+    position: relative;
+}
+.val{
+    font-size: 10px;
+    color: white;
+    padding-left: 150;
+    padding-top: 5;
+}
+.thur{
+    font-size: 10px;
+    color: white;
+    padding-left: 153;
+}
+.numm{
+    font-size: 23px;
+    color: white;
+    padding-left: 185;
+    position: absolute;
+    top : 3;
+}
+.div5{
+    width: 100%;
+    height: 17%;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+}
+.nam{
+    letter-spacing: 2px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 16%;
+}
+.visa{
+    font-size: 32;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-left: 78%;
+    position: absolute;
+    top:0;
+}
+.pla{
+    font-size: 12;
+    color: white;
+    margin-left: 81%;
+    position: absolute;
+    top: 32;
+    left:5;
+}
+

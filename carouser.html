@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./carouser.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child">
+                <img src="./images/nature.jpeg">
+            </div>
+        </div>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="./slick-1.8.1/slick-1.8.1/slick/slick.js"></script>
+    <script src="./slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.parent').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: true,
+            // infinite: true,
+            prevArrow: `<button class=mybutton><</button>`,
+            nextArrow: `<button class=mybutton>></button>`,
+            // centerMode: true,
+            responsive: [
+                {
+                    breakpoint: 770,
+                    settings: {
+                        slidesToShow: 3,
+                        centerMode: true,
+                    },
+
+                },
+                {
+                    breakpoint: 508,
+                    settings: {
+                        slidesToShow: 2,
+                        centerMode: true,
+                    },
+                },
+                {
+                    breakpoint:300,
+                    settings:{
+                        slidesToShow:1,
+                        centerMode:true,
+                    },
+                },
+            ]
+        });
+    </script>
+</body>
+
+</html>

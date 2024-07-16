@@ -1,0 +1,85 @@
+.par{
+    width:30%;
+    height: 30%;
+    border:1.5px solid black;
+    background: linear-gradient(to top left , rgb(224, 102, 206),rgb(20, 104, 193));
+    position:relative;
+    display:flex;
+    /* transform:rotate(60deg) */
+}
+.par #ch{
+    position: absolute;
+    top:45%;
+    left:40%;
+}
+
+.par1{
+    width:30%;
+    height: 30%;
+    border:1.5px solid black;
+    background: linear-gradient(to top left , rgb(35, 26, 117),rgb(18, 48, 79),rgb(114, 16, 189));
+    position:relative;
+    transform:rotatex(60deg)
+}
+.par1 #ch1{
+    position: absolute;
+    top:45%;
+    left:40%;
+}
+.par2{
+    width:30%;
+    height: 30%;
+    border:1.5px solid black;
+    background: linear-gradient(to top left , rgb(35, 26, 117),rgb(18, 48, 79),rgb(114, 16, 189));
+    position:relative;
+    transform:rotatey(60deg)
+}
+.par2 #ch2{
+    position: absolute;
+    top:45%;
+    left:40%;
+}
+
+.par3dx{
+    width: 300px;
+    height:300px;
+    border:1px solid black;
+    position:relative;
+    top:30%;
+    left:30%;
+    perspective: 100px;
+    
+}
+.ch3dx{
+    color: bisque;
+    font-size: 50px;
+    width: 80%;
+    height:80%;
+    position: absolute;
+    background-color: brown;
+    transform-style: preserve-3d;
+    transform: rotateX(30deg);    
+    /* font-size: larger; */
+}
+
+.par3dy{
+    width: 300px;
+    height:300px;
+    border:1px solid black;
+    position:relative;
+    top:70%;
+    left:30%;
+    perspective: 100px;
+    
+}
+.ch3dy{
+    color: bisque;
+    font-size: 50px;
+    width: 80%;
+    height:80%;
+    position: absolute;
+    background-color: brown;
+    transform-style: preserve-3d;
+    transform: rotateY(20deg);    
+    /* font-size: larger; */
+}

@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    width:500px;
+    height: 500px;
+    border:2px solid black;
+    perspective: 50px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* perspective-origin: bottom; */
+}
+.child1{
+    width:250px;
+    position: absolute;
+    height:100px;
+    top:15%;
+    left:25%;
+    /* perspective: bottom; */
+    background-color: skyblue;
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+}
+.child2{
+    width:100px;
+    position: absolute;
+    top:25%;
+    left:65%;
+    height:250px;
+    background-color: hotpink;
+    transform-style: preserve-3d;
+    transform: rotateY(-90deg);
+}
+.child3{
+    width:250px;
+    position: absolute;
+    left:25%;
+    top:65%;
+    height:100px;
+    background-color: skyblue;
+    transform-style: preserve-3d;
+    transform: rotateX(90deg);
+}
+.child4{
+    width:100px;
+    position: absolute;
+    top:25%;
+    left:15%;
+    height:250px;
+    background-color: hotpink;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+}

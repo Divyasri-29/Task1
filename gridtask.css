@@ -1,0 +1,141 @@
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://t4.ftcdn.net/jpg/02/79/75/45/360_F_279754521_z5fz8zm9AoqIriAaeKOKWPTmuh1Xr2Qg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#TABLE {
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    background: linear-gradient(to top,#01528A,#028CF3,#1B5385,#6F198D,#80097E,#DC00AE);
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+img {
+    width: 120%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(202, 17, 94);
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 10px 4px #38acc3;
+}
+
+button:hover {
+    background-color: rgb(198, 87, 128);
+}
+
+button:active {
+    background-color: rgb(198, 87, 128);
+}
+
+.celebration, .game-over {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 0.7;
+    transform: rotate(45deg);
+    animation: confetti-fall 4s linear infinite;
+}
+
+@keyframes confetti-fall {
+    0% {
+        top: -10px;
+        transform: rotate(45deg);
+    }
+    100% {
+        top: 100vh;
+        transform: rotate(360deg);
+    }
+}
+
+.spring {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    opacity: 0.7;
+    border-radius: 50%;
+    animation: spring-fall 4s linear infinite;
+}
+
+@keyframes spring-fall {
+    0% {
+        top: -10px;
+        transform: scale(1);
+    }
+    100% {
+        top: 100vh;
+        transform: scale(1.5) rotate(720deg);
+    }
+}
+
+.shake {
+    animation: shake-animation 0.5s infinite;
+}
+
+@keyframes shake-animation {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    25% { transform: translate(-50%, -50%) rotate(5deg); }
+    50% { transform: translate(-50%, -50%) rotate(0deg); }
+    75% { transform: translate(-50%, -50%) rotate(-5deg); }
+    100% { transform: translate(-50%, -50%) rotate(0deg); }
+}

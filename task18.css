@@ -1,0 +1,143 @@
+/* body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.par{
+    width: 55%;
+    height: 80%;
+    background-color: rgb(202, 202, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    width: 35%;
+    height: 21%;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/987/875/original/sea-ocean-scenery-at-day-light-with-sun-and-clouds-background-illustration-vector.jpg");
+    background-size: 100% 100%;
+}
+.cir1{
+    border-radius: 50%;
+    width: 27%;
+    height: 65%;
+    background-color: yellow;
+    position: absolute;
+    left: 5%;
+    transition: all 5s ease;
+    overflow: hidden;
+    z-index: 9999;
+}
+.cir2{
+    border-radius: 50%;
+    width: 27%;
+    height: 65%;
+    background-color: white;
+    position: absolute;
+    left: 110%;
+}
+.cir1:hover{
+    /* transform: translateX(150px);
+    left: 100px;
+}
+.div1::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: -150px;
+    background-image: url("https://png.pngtree.com/background/20230425/original/pngtree-dark-night-sky-full-of-stars-over-trees-picture-image_2474269.jpg");
+    background-size: 100% 100%;
+    transition: all 5s;
+}
+.div1:hover::after{
+    top: 0px;
+} */
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    height: 15%;
+    width: 20%;
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 20px black;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+.div::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/987/875/original/sea-ocean-scenery-at-day-light-with-sun-and-clouds-background-illustration-vector.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.div::before{
+    content: "";
+    height: 80%;
+    width: 30%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/987/875/original/sea-ocean-scenery-at-day-light-with-sun-and-clouds-background-illustration-vector.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+.a:hover::before{
+    animation: animation 15s linear;
+    transition: all 3s;
+    position: absolute;
+    left: 67%;
+}
+.a:hover::after{
+    animation: animation1 6s linear;
+    transition: all 3s;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/987/875/original/sea-ocean-scenery-at-day-light-with-sun-and-clouds-background-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@keyframes animation{
+    0%{
+        background-image: url("");
+    }
+    15%{
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+@keyframes animation1{
+    0%{
+        background-image: url("https://static.vecteezy.com/system/resources/previews/015/987/875/original/sea-ocean-scenery-at-day-light-with-sun-and-clouds-background-illustration-vector.jpg");
+    }
+    70%{
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}

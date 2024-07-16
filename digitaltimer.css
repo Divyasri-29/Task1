@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 80px;
+}
+.hours,.minutes,.seconds{
+    color: red;
+    font-size: 130px;
+    box-shadow: 0px 0px 20px 2px red;
+}
+.dot{
+    color: red;
+    font-size: 120px;
+}

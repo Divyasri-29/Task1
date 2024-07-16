@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table with Movable Object</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="tableContainer"></div>
+    <button onclick="move('up')">Up</button>
+    <button onclick="move('down')">Down</button>
+    <button onclick="move('left')">Left</button>
+    <button onclick="move('right')">Right</button>
+
+    <script>
+        let rows = prompt("Enter number of rows:");
+        let cols = prompt("Enter number of columns:");
+        let tableContainer = document.getElementById('tableContainer');
+        let table = document.createElement('table');
+        let currentRow = 0;
+        let currentCol = 0;
+
+        // Create the table
+        for (let i = 0; i < rows; i++) {
+            let tr = document.createElement('tr');
+            for (let j = 0; j < cols; j++) {
+                let td = document.createElement('td');
+                if (i === 0 && j === 0) {
+                    td.innerHTML = '<img src="https://via.placeholder.com/20" id="movableObject" />';
+                }
+                tr.appendChild(td);
+            }
+            table.appendChild(tr);
+        }
+        tableContainer.appendChild(table);
+
+        function move(direction) {
+            let table = document.querySelector('table');
+            let objectCell = table.rows[currentRow].cells[currentCol];
+            let object = document.getElementById('movableObject');
+
+            // Remove the object from the current cell
+            objectCell.innerHTML = '';
+
+            // Update the position based on the direction
+            if (direction === 'up' && currentRow > 0) currentRow--;
+            if (direction === 'down' && currentRow < rows - 1) currentRow++;
+            if (direction === 'left' && currentCol > 0) currentCol--;
+            if (direction === 'right' && currentCol < cols - 1) currentCol++;
+
+            // Place the object in the new cell
+            objectCell = table.rows[currentRow].cells[currentCol];
+            objectCell.appendChild(object);
+        }
+    </script>
+</body>
+</html>

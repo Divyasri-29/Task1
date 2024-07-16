@@ -1,0 +1,303 @@
+.par{
+    width:100%;
+    height:100%;
+}
+.div1{
+    width:80%;
+    height: 60%;
+    margin-left: 8%;
+    background: linear-gradient(to top right,#1B5B7F,#7FCCC6);
+}
+.div2{
+    width:80%;
+    height: 40%;
+    margin-left: 8%;
+    background-color: #82CFC7;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+}
+.head{
+    width:100%;
+    height: 20%;
+    display: flex;
+}
+.top{
+    width:20%;
+    height: 100%;
+    position: relative;
+}
+.box{
+    width:7%;
+    height:25%;
+    border: 2px solid black;
+    border-radius: 25%;
+    box-shadow: 4px 4px 0px 0px black;
+    position: absolute;
+    top:24%;
+    left:20%;
+}
+.topic{
+    font-size: 130%;
+    position: absolute;
+    top: 23%;
+    left:33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.mat{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2em;
+}
+.one{
+    font-size: 80%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+details{
+    position: absolute;
+    color: white;
+    left:65%;
+}
+.pic img{
+    border-radius:70%;
+    width:2%;
+    height:4%;
+    /* margin-left: 620%;
+    margin-top: 30%; */
+    position: absolute;
+    left:83%;
+    top:5%;
+
+}
+hr{
+    color: rgb(91, 91, 91);
+    width:100%;
+}
+.next{
+    width:70%;
+    height:17%;
+    color: white;
+    font-size: 230%;
+    position: relative;
+    left:26%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ne{
+    width:70%;
+    height:10%;
+    color: #276C8B;
+    font-size: 90%;
+    position: relative;
+    left:31%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1{
+    width:60%;
+    height:17%;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 20%;
+    position: relative;
+}
+.sym img{
+    width:6%;
+    height:50%;
+    position: absolute;
+    left:4%;
+    top:25%;
+}
+.matter{
+    color: grey;
+    position: absolute;
+    left: 13%;
+    top:32%;
+    font-size: 110%;
+}
+.search button{
+    width: 17%;
+    height: 70%;
+    color: white;
+    font-size: 100%;
+    border-radius: 50px;
+    margin-left: 80%;
+    margin-top: 1%;
+    background-color: #81CFC7;
+    border:0cap;
+}
+.firs{
+    width:25%;
+    height:117%;
+    background-color: white;
+    position: absolute;
+    left:15%;
+    bottom: 15%;
+    border-radius: 9%;
+}
+.secon{
+    width:38%;
+    height:117%;
+    position: absolute;
+    left: 43%;
+    bottom: 15%;
+    border-radius: 6%;
+    background-image: url("https://www.exactsales.com.br/wp-content/uploads/elementor/thumbs/post_blog_analise_concorrencia-qfidqoit7t1rpu37yutsn5fyvppgtiggxw47fupfwk.webp");
+    background-size: 100% 100%;
+}
+.cl1{
+    width:100%;
+    height: 15%;
+    position: relative;
+    top:5%;
+    color: black;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:8%;
+}
+.num14{
+    width:10%;
+    height:60%;
+    border-radius: 25%;
+    background-color: aqua;
+    color: white;
+    position: absolute;
+    top:5%;
+    left:75%;
+    font-size: 80%;
+    align-content: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+.cl2{
+    color:grey;
+    font-size: medium;
+    height:30%;
+    position: absolute;
+    top:17%;
+    left:9%;
+}
+.cl3 img{
+    width:86%;
+    height:56%;
+    position: absolute;
+    top:43%;
+    left:9%;
+}
+.c1{
+    width:100%;
+    height: 15%;
+    position: relative;
+    top:5%;
+    color: black;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:8%;
+}
+.num25{
+    width:10%;
+    height:60%;
+    border-radius: 25%;
+    background-color: #586AFE;
+    color: white;
+    position: absolute;
+    top:5%;
+    left:75%;
+    font-size: 80%;
+    align-content: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+.c2{
+    color:white;
+    font-size: 88%;
+    height:20%;
+    position: absolute;
+    top:17%;
+    left:9%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.finance{
+    color:white;
+}
+.bar button{
+    width: 23%;
+    height: 13%;
+    color: white;
+    font-size: 80%;
+    border-radius: 50px;
+    margin-left: 8%;
+    margin-top: 22%;
+    background-color: #81CFC7;
+    border:0cap;
+}
+.share{
+    width: 100%;
+    height: 17%;
+    position: relative;
+    top: 18%;
+}
+.sha{
+    color: white;
+    position: absolute;
+    left:7%;
+    top:20%;
+}
+.twi{
+    width: 7%;
+    height: 55%;
+    border-radius: 60%;
+    background-color: #81CFC7;
+    position: absolute;
+    left:25%;
+    top: 20%;
+}
+.twi i{
+    color:white;
+    position: absolute;
+    left:27%;
+    top:23%;
+    font-size: 80%;
+}
+.face{
+    width: 7%;
+    height: 55%;
+    border-radius: 60%;
+    background-color: #81CFC7;
+    position: absolute;
+    left:34%;
+    top: 20%;
+}
+.face i{
+    color:white;
+    position: absolute;
+    left:24%;
+    top:26%;
+    font-size: 80%;
+}
+.pin{
+    width: 7%;
+    height: 55%;
+    border-radius: 60%;
+    background-color: #81CFC7;
+    position: absolute;
+    left:43%;
+    top: 20%;
+}
+.pin i{
+    color:white;
+    position: absolute;
+    left:24%;
+    top:26%;
+    font-size: 80%;
+}
+.savee i{
+    position: absolute;
+    left:90%;
+    top: 25%;
+    width:10%;
+    height:50%;
+    color: white;
+}

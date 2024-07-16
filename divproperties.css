@@ -1,0 +1,69 @@
+.mydiv{
+    /* border */
+    font-size:50px;
+    border-top-width: 10x;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+
+    /* border-color: black; */
+    border-top-color: pink;
+    border-right-color: skyblue;
+    border-bottom-color: pink;
+    border-left-color: skyblue;
+
+    /* border-style: solid; */
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: double;
+
+    /* border:10px solid black */
+
+    font-family: Lucida Handwriting;
+}
+.mydiv1{
+    /* width */
+    /* max-width: 700px;
+    min-width: 300px;
+    width: 50%; */
+    border:2px solid black;
+    width: fit-content;
+    height:100svh;
+    height:50vh;
+    /* margin */
+    margin-top: 50px;
+    margin-left: 50px;
+    /* margin:10px 20px 30px 40px */
+    /* padding */
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 10px;
+    /* padding:10px 20px 30px 40px */
+}
+.mydiv2{
+    /* box model */
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 30px;
+
+    /* border-radius: 30px; */ 
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.mydiv3{
+    width:300px;
+    height: 350px;
+    border: 5px solid black;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+.mydiv3:hover{
+    box-shadow: 15px 15px 20px pink;
+}

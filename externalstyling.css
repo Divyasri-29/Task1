@@ -1,0 +1,37 @@
+p{
+    color: purple;
+}
+.mydiv p{
+    color: brown;
+}
+.first p{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.second p{
+    color: skyblue;
+    background-color: aqua;
+}
+.mydiv1{
+    background-color: skyblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+.mydiv1:hover{
+    background-color: palevioletred;
+}
+#myid{
+    font-size: 50px;
+    font-weight: 300;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-color: skyblue;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-shadow: 5px 1px 4px  lavender;
+    text-transform:uppercase;
+    text-indent: 500px;
+    letter-spacing: 2px;
+    color: pink;
+
+}

@@ -1,0 +1,71 @@
+HTML:-
+--------
+hyper(hyperlink)
+text (data)
+markup(predefined)
+language(communication)
+
+Image navigation:-
+--------------------
+./     --->  to come out from the html file
+../    --->  to come out of the folder back
+/anyname/anyname    --> forward
+
+---------------------------------------------------------
+CSS: (comments --> /*   */)
+-----
+Inline -->  attribute="property:value"  
+Internal -->
+tag --> tagname
+id --> #
+class --> .
+universal selector --> *
+External --> link rel="Stylesheet" href=""/>
+
+!important --> this has hightest priority(it will overwrite the changes done before)
+priority :-   !important > Inline > id > class
+
+Properties of text:-
+---------------------
+font-size
+font-weight --> range[100 to 900]
+font-family
+text-decoration
+text-align
+color
+text-transform
+text-shadow : x-axis  y-axis  blur  spread  color
+
+Properties of div :-
+----------------------
+border -->   border-width	border-style(type)	border-color
+example:-
+  border :	   2px		solid/groove/dashed	black(or)red
+
+--> 2 parameters --> top,bottom  left,right
+    3 parameters --> top  right bottom right
+    4 paramerters--> top right bottom left
+
+width:
+--> vh-view height
+    svh-system/small view height
+
+margin --> space/distance b/w two tags(outer spacing)
+padding --> the space b/w the contents and the border (inner spacing)
+box model --> combination of margin,border,padding,content
+
+--> border-radius
+ * border-top-left-radius
+ * border-top-right-radius
+ * border-bottom-right-radius
+ * border-bottom-left-radius
+
+--> text-shadow : x-axis  y-axis  blur  spreadblur  color
+
+
+
+
+
+
+
+

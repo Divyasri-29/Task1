@@ -1,0 +1,178 @@
+.main{
+    width: 100%;
+    height: 700svh;
+    background-color: black;
+}
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://niksahomes.com/wp-content/uploads/2023/11/luxury-modern-room-with-elegant-decoration-lighting-generated-by-ai.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.head{
+    width: 100%;
+    height: 15%;
+    /* display: flex; */
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+}
+.logo{
+    width: 23%;
+    height: 90%;
+    background-color: black;
+    position: relative;
+}
+.logo img{
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+/* .det{
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    left: 10%;
+    background-color: aqua;
+    justify-content: space-evenly;
+    display: flex;
+}
+.home{
+    font-size: 130%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+
+    margin-top: 5%;
+}
+.dash{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    margin-top: 50%;
+}
+#h:hover .dash{
+    background-color: red;
+}
+.das{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    margin-top: 36%;
+}
+#p:hover .das{
+    background-color: red;
+}
+#b:hover .dash{
+    background-color: red;
+}
+.dashh{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    margin-top: 25%;
+}
+#iii:hover .dashh{
+    background-color: red;
+}
+.da{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    margin-top: 33%;
+}
+#s:hover .da{
+    background-color: red;
+} */
+ 
+.hhhh{
+    width: 80%;
+    height: 3px;
+    position: absolute;
+    top: 16%;
+    left: 7%;
+    /* margin-left: 10%;
+    margin-top: 7%; */
+    background-color: white;
+    color: white;
+    position: fixed;
+}
+.con{
+    width: 30%;
+    height: 35%;
+    position: relative;
+    top: 45%;
+    left: 10%;
+    /* background-color: black; */
+
+}
+.mat{
+    font-size: 300%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 0%;
+    left: 10%;
+    /* background-color: black; */
+}
+k1{
+    font-size: 45%;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 990px) {
+    .home {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+    }
+    .con{
+        margin-left: 30%;
+    }
+    .mat{
+        text-align: center;
+    }
+  }
+
+.div2{
+    width: 100%;
+    height: 90vh;
+    background-color: #F4F4F4;
+}
+.exp{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+    /* position: absolute;
+    top: 10%; */
+}
+.ex{
+    font-size: 170%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: black;
+}
+re{
+    color: red;
+
+}

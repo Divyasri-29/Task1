@@ -1,0 +1,60 @@
+.par{
+    width: 60%;
+    height: 80%;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 19%;
+    animation-name: myanimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    display: flex;
+    background-image: url("https://t4.ftcdn.net/jpg/03/94/95/15/360_F_394951572_8ziCn6oWAsx2hgFQYtRAC7GbNL9lTzrS.jpg");
+    background-size: 100% 100%;
+}
+.earth{
+    width: 14%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: 34%;
+    left: 42%;
+    background-image: url("https://i.etsystatic.com/9674889/r/il/c425b8/650861778/il_1080xN.650861778_qnm1.jpg");
+    background-size: 100% 100%;
+}
+.moon{
+    width: 21%;
+    height: 20%;
+    border-radius: 50%;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/xXp45gLeBTBt4jPuZcawUJ-1200-80.jpg");
+    background-size: 100% 100%;
+
+}
+@keyframes myanimation{
+    0%{
+        align-items: start;
+        justify-content: center;
+    }
+    25%{
+        align-items: center;
+        justify-content: start;
+    }
+    50%{
+        align-items: end;
+        justify-content: center;
+    }
+    75%{
+        align-items: center;
+        justify-content: end;
+    }
+    100%{
+        align-items: start;
+        justify-content: center;
+    }
+    /* 0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(1turn);
+    } */
+}
